@@ -1,0 +1,133 @@
+body {
+    background: #000;
+    color: #333333;
+    margin-top: 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444444;
+}
+
+ul {
+    margin: 0;
+}
+
+.bg-steel {
+background:linear-gradient(#030101,#0A409A,#fff0);
+}
+
+.site-header .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #00FFFF;
+    opacity: 0.7; 
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 700;
+}
+
+.content-section {
+    background: linear-gradient(#26fcff,#0A409A);
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.article-title {
+    color: #444444;
+}
+
+a.article-title:hover {
+    color: #06f5dd;
+    text-decoration: none;
+}
+
+.article-content {
+    white-space: pre-line;
+}
+
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+.account-heading {
+    font-size: 2.5rem;
+}
+
+.btn-outline-info {
+    background: transparent;
+  line-height: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border: 2px solid #4ba0f9;
+  color: #000000;
+  display: inline-block;
+  font-weight: 500;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-transform: uppercase;
+  position: relative; }
+  .primary-btn:hover {
+    color: #fff;
+    box-shadow: 0px 20px 20px 0px rgba(157, 157, 157, 0.5);
+    border-image: linear-gradient(to right, #4ba0f9 0%, #85f3f9 100%);
+    -webkit-border-image: linear-gradient(to right, #4ba0f9 0%, #85f3f9 100%);
+    border-image-slice: 1;
+    border-width: 2px;
+}
+
+.asteriskField{
+    color: red;
+}
+
+/*---------Navbar-------------------*/
+.navbar-brand{
+  font-weight:bold;
+  font-size:30px
+}
+
+.hint_id_username{
+    color: #ffffff;
+}
